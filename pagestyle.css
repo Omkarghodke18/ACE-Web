@@ -1,0 +1,53 @@
+
+
+.row {
+    text-align:center;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(118 147 94 / 77%);
+    
+}
+
+.feedback {
+    margin-left: 100px;
+    margin-top: 100px;
+    color: darkblue;
+}
+
+.notices {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(118 147 94 / 77%) ;
+    align-items: center;
+    
+}
+
+#Noticetitle {
+    color:#120682 ;
+    margin-top: 30px;
+}
+
+#pages {
+    height: 30px;
+    background-color: #1b0c9f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+ }
+ a {
+    color: aliceblue;
+ }
+.feedbody{
+
+    background-image: url("feedbg.jpeg");
+    background-size: cover;
+
+ 
+}
+.payfee{
+    background-image: url("feeimg.jpeg");
+    background-size: cover;
+}
+ 

@@ -1,0 +1,559 @@
+*{
+margin: 0;
+padding: 0;
+}
+#college {
+    
+    height: 180px;
+    width: 100%;
+    background-image: url("logo1.jpg");
+    background-size:cover;
+    
+    
+}
+
+#pages {
+   height: 30px;
+   background-color: #9f0c0c;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+
+a {
+   color: aliceblue;
+}
+
+ #afterheader {
+    color: #ff0000;
+ }
+
+ .acehead {
+     height: 800px;
+      
+     background-color: #c4d0dba1;
+     display: flex;
+     
+     
+ }
+
+ #acelogo {
+    height: 120px;
+    width: 20%;
+    background-image: url("ACE Logo(1).png");
+    background-size: cover;
+    margin-bottom: 20px;
+    
+ }
+
+ .acecontent {
+   display: flex;
+   flex-direction: column;
+   
+ }
+
+ #department {
+   color: #120682;
+   font-weight: 600;
+   margin-top: 50px;
+   font-family: fantasy;
+   font-size: xx-large;
+    margin-left: 30px;
+    text-align: center;
+ }
+
+.whyace{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 50px;
+    padding-left: 50px;
+    
+
+
+} 
+
+ #vision {
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Math;
+    margin-top: 10px;
+    /* background-color:rgb(118 150 91 / 55%); */
+ }
+ #vis {
+    color:rgb(189 40 40) ;
+    font-size: larger;
+    font-family: sans-serif;
+ }
+
+ .acemission {
+   padding-left: 50px;
+    
+ }
+
+ #mission {
+    color: rgb(189 40 40);
+    font-size: larger;
+    margin-top: 30px;
+    font-family: sans-serif;
+ }
+
+ .list1 {
+   margin-top: 10px;
+   /* background-color:rgb(118 150 91 / 55%) ; */
+   font-size: medium;
+   font-family:cursive ;
+   color: rgb(10, 7, 7);
+   
+ }
+
+ #m1 {
+    
+    
+   
+    font-weight: 300;
+    
+ }
+
+ #m2 {
+    
+    
+    padding-top: 10px;
+    font-weight: 300;
+    
+ }
+
+ #m3 {
+   
+    
+    padding-top: 10px;
+    font-weight: 300;
+    
+ }
+
+ #m4 {
+   
+    
+    padding-top: 10px;
+    font-weight: 300;
+    
+ }
+
+ .aceobjective {
+   padding-left: 50px;
+ }
+
+ #objective {
+   color: rgb(189 40 40);
+   font-size: larger;
+   margin-top: 30px;
+   font-family: sans-serif;
+ }
+
+ .list2 {
+   margin-top: 10px;
+   /* background-color:rgb(118 150 91 / 55%) ; */
+   font-size: medium;
+   font-family:cursive ;
+   color: rgb(10, 7, 7);
+ }
+
+ .aceactivity {
+   padding-left: 50px;
+ }
+
+ #activityhead {
+   color: rgb(189 40 40);
+   font-size: larger;
+   margin-top: 30px;
+   font-family: sans-serif;
+ }
+
+ .list3 {
+   margin-top: 10px;
+   /* background-color:rgb(118 150 91 / 55%) ; */
+   font-size: medium;
+   font-family:cursive ;
+   color: rgb(10, 7, 7);
+ }
+
+ .committeebody {
+   height: 900px;
+   background-image: url("Bgcontent.jpg");
+   border: 5px solid rgb(130, 4, 29);
+   border-radius: 10px;
+   
+ }
+
+#committee {
+   color:#120682;
+   font-weight: 600;
+   margin-top: 20px;
+   font-family: fantasy;
+   font-size: xx-large;
+    margin-left: 30px;
+    text-align: center;
+} 
+
+.facultycontent {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   border: 2px solid rgb(18, 7, 9);
+   margin-top: 25px;
+   margin-left: 10%;
+   margin-right: 40%;
+   
+}
+
+#faculty {
+   color:rgb(189 40 40) ;
+    font-size: larger;
+    font-family: sans-serif;
+    
+    text-align: center;
+    padding-top: 10px;
+}
+
+#cordinator {
+      color: mediumblue;
+      font-size: medium;
+      font-family: math;
+      margin-left: 10px;
+}
+
+#L1 {
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+}
+
+#member {
+   color: mediumblue;
+      font-size: medium;
+      font-family: math;
+      margin-left: 10px;
+      margin-top: 10px;
+}
+
+#L2 {
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+
+}
+.studentcontent{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   border: 2px solid rgb(18, 7, 9);
+   margin-top: 25px;
+   margin-left: 10%;
+   margin-right: 40%;
+}
+
+#student {
+   color:rgb(142, 6, 6) ;
+    font-size: larger;
+    font-family: sans-serif;
+    
+    text-align: center;
+    padding-top: 10px;
+}
+
+#president {
+   color: mediumblue;
+      font-size: medium;
+      font-family: math;
+      margin-left: 10px;
+}
+
+#SL1 {
+
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+}
+
+#vicepresident {
+   color: mediumblue;
+      font-size: medium;
+      font-family: math;
+      margin-left: 10px;
+      margin-top: 10px;
+}
+
+#SL2 {
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+}
+
+#Treasurer {
+   color: mediumblue;
+      font-size: medium;
+      font-family: math;
+      margin-left: 10px;
+      margin-top: 10px;
+}
+
+#SL3 {
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+}
+
+#cultural {
+   color: mediumblue;
+      font-size: medium;
+      font-family: math;
+      margin-left: 10px;
+      margin-top: 10px;
+}
+
+#SL4 {
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+}
+
+#technicle {
+   color: mediumblue;
+   font-size: medium;
+   font-family: math;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+#SL5 {
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+}
+
+#Sports {
+   color: mediumblue;
+   font-size: medium;
+   font-family: math;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+#SL6 {
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+}
+#Dicipline {
+   color: mediumblue;
+   font-size: medium;
+   font-family: math;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+#SL7 {
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+}
+#publicity {
+   color: mediumblue;
+   font-size: medium;
+   font-family: math;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+#SL8 {
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+}
+
+#photography {
+   color: mediumblue;
+   font-size: medium;
+   font-family: math;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+#SL9 {
+   margin-left: 25px;
+   font-family: cursive;
+   font-size: small;
+   font-weight: bold;
+}
+
+.Eventpics {
+     height: 2000px;
+     background-image: url(bggallery.png);
+     background-size:auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+
+#photo {
+   color:#120682;
+   font-weight: 600;
+   margin-top: 10px;
+   font-family: fantasy;
+   font-size:x-large;
+   
+    text-align: center;
+}
+
+#fresher1 {
+   height: 350px;
+   margin-left: 5%;
+   margin-right: 45%;
+   background-image:url("freshers1.jpg") ;
+   background-size: cover;
+   border: 2px solid rgb(18, 7, 9);
+   position: relative;
+   animation: fresher 10s linear(0 0%, 1 100%) 10s alternate infinite;
+}
+ 
+@keyframes fresher {
+   from {left: 0px;}
+   to {left: 300px;}
+}
+
+#fresher2 {
+   height: 350px;
+   margin-left: 5%;
+   margin-right: 45%;
+   background-image: url("freshers2.jpg");
+   background-size: cover;
+   border: 2px solid rgb(18, 7, 9);
+   
+}
+
+
+#onset {
+   height: 350px;
+   margin-left: 5%;
+   margin-right: 45%;
+   background-image: url("onset.jpeg");
+   background-size: cover;
+   border: 2px solid rgb(18, 7, 9);
+   position: relative;
+   animation: onset 10s linear(0 0%, 1 100%) 10s alternate infinite;
+}
+@keyframes onset {
+   from {left: 0px;}
+   to {left: 300px;}
+}
+
+#techjung {
+   height: 350px;
+   margin-left: 5%;
+   margin-right: 45%;
+   background-image: url("techjung.jpg");
+   background-size: cover;
+   border: 2px solid rgb(18, 7, 9);
+   
+}
+
+
+#club {
+   height: 350px;
+   margin-left: 5%;
+   margin-right: 45%;
+   background-image: url("clubactivity.jpg");
+   background-size: cover;
+   border: 2px solid rgb(18, 7, 9);
+   position: relative;
+   animation: club 10s linear(0 0%, 1 100%) 10s alternate infinite;
+}
+
+@keyframes club {
+   from {left: 0px;}
+   to {left: 300px;}
+}
+
+/*.feenotice {
+height: 1200px;
+display: flex;
+flex-direction: column;
+background-color: rgba(7, 9, 11, 0.279);
+
+}
+
+#imgnotice {
+height: 1000px;
+margin-top: 50px;
+margin-left: 200px;
+margin-right: 200px;
+background-image: url("ace\ fund.png");
+background-size: cover;
+border: 2px solid rgb(18, 7, 9);
+}
+
+#feebutton {
+   margin-top: 30px;
+   color: aliceblue;
+   background-color: #120682;
+   margin-left: 45%;
+   height: 30px;
+   border: 5px double brown;
+   border-radius: 10px;
+}
+
+#feebutton:hover {
+   background-color: rgb(23, 108, 46);
+}*/
+
+.footer {
+   background-color:#0b1d40;
+   
+   height: 400px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+}
+
+.copyright {
+   background-color:#345ca4 ;
+   color:white;
+   height: 30px;
+
+}
+
+.notify {
+   background-color:#efb61bd5;
+   color:#120682;font-weight: 600;
+
+   
+}
+
+#mymarq{
+   animation:flash 1s linear infinite;
+}
+
+@keyframes flash {
+   0%{
+      opacity: 1;
+      }
+   50%{
+      opacity: 0.2;
+   }
+   100%{
+      opacity: 1;
+   }   
+   }
